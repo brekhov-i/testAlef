@@ -1,0 +1,45 @@
+.preview {
+  width: 100%;
+  height: auto;
+
+  &__wrapper {
+    width: 100%;
+    max-width: 616px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &__personal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 60px;
+
+    .peopleInfo {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #111111;
+    }
+  }
+
+  &__childrenBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+}
+
+.preview__title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111111;
+  margin-bottom: 20px;
+}

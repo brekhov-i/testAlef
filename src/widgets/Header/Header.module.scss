@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  height: 76px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 rgba(17, 17, 17, 0.1);
+
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 24px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 93px;
+    height: 29px;
+  }
+
+  &__nav {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .nav__link {
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(17, 17, 17, 0.48);
+    }
+  }
+}
